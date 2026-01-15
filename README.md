@@ -1,6 +1,4 @@
-# Young-People-Activity-Space-Disparity
-
-Unveiling Spatial Disparities between Public Rental Housing and Young People’s Daily Activity Spaces
+# Unveiling Spatial Disparities between Public Rental Housing and Young People’s Daily Activity Spaces
 
 This repository contains the source code and methodology used in the research published in the *Journal of the Korean Geographical Society*.
 
@@ -17,9 +15,15 @@ We utilize large-scale mobility data, including:
 * **Mobile Floating Population Data:** To track hourly and monthly population movements.
 * **Credit Card Transaction Data:** To analyze consumption-based activity patterns.
 
-### Methodology: Flow-LISA
+### Methodology: FlowLISA
 To identify spatial associations, we employed **Flow-LISA (Local Indicators of Spatial Association for Flows)**. This allowed us to detect clusters where housing supply and actual human activity either align (High-High) or show significant mismatch.
 
-## 🛠 Project Structure
-* `/data`: Sample datasets and administrative boundary files (Shapefiles).
-* `/notebooks`: Jupyter notebooks for KNN sensitivity analysis and visualization.
+## 📂 Repository Structure
+
+```text
+├── data/                 # Sampled data (Raw data not uploaded for security)
+└── codes/                # Step-by-step analysis workflows
+    ├── 01_pop_preprocessing.py
+    ├── 02_card_preprocessing.py    
+    ├── 03_filtering-depopulated-areas.py
+    └── 04_knn_sensitivity_test.py
