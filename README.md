@@ -25,5 +25,9 @@ To identify spatial associations, we employed **Flow-LISA (Local Indicators of S
 └── codes/                # Step-by-step analysis workflows
     ├── 01_pop_preprocessing.py
     ├── 02_card_preprocessing.py    
-    ├── 03_filtering-depopulated-areas.py
-    └── 04_knn_sensitivity_test.py
+    ├── 03_youth_resident_preprocessing.py
+    ├── 04_happy_housing_preprocessing.py
+    ├── 05_pop_based_SFlowLISA.py
+    ├── 06_card_based_SFlowLISA.py
+    ├── 07_Coulter_inequity_index.py
+    └── 08_Coulter_adjustment_coefficient.py
