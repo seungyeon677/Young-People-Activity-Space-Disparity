@@ -6,7 +6,7 @@ This repository contains the source code and methodology used in the research pu
 * **Title:** 청년인구 일상 활동 영역과 행복주택 입지의 공간적 불일치에 관한 연구 (Unveiling Spatial Disparities between Public Rental Housing and Young People’s Daily Activity Spaces)
 * **Authors:** Lee, S., Hwang, T., Do Lee, W., & Hwang, C. S.
 * **Journal:** *Journal of the Korean Geographical Society*, 59 (4), 196-209. (2024)
-* **DOI:** [Link to Journal/DOI if available]
+* **DOI:** https://doi.org/10.22776/kgs.2024.59.4.573
 
 ## 🔍 Research Overview
 This study explores the geographic relationship between **"Happy Housing"** (South Korea's representative public rental housing for youth) and the actual **Daily Activity Spaces** of the young population. 
